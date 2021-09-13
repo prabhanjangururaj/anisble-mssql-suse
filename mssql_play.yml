@@ -7,7 +7,7 @@
     db_name: mssql_db
     db_host: localhost    
     db_user: SA
-    db_password: lvmtest
+    db_password: ******
 
   roles:
     - { role: deploy.mssql }
@@ -24,4 +24,4 @@
         state: present
         login_host: "{{ db_host }}"
         login_user: "{{ db_user }}"
-        login_password: "{{ db_password }}"
+        login_password: "{{ ****** }}"
